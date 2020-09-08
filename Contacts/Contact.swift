@@ -6,4 +6,14 @@
 //  Copyright © 2020 Akhil Jain. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+struct Contact{
+    let name : String
+    let phone : String
+    let work : String
+    let email : String
+    let birthday : String
+    let image : UIImage
+}

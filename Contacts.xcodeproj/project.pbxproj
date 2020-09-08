@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		8F10C6042500DF200003C278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C6032500DF200003C278 /* AppDelegate.swift */; };
 		8F10C6062500DF200003C278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C6052500DF200003C278 /* SceneDelegate.swift */; };
-		8F10C6082500DF200003C278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C6072500DF200003C278 /* ViewController.swift */; };
+		8F10C6082500DF200003C278 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C6072500DF200003C278 /* ContactViewController.swift */; };
 		8F10C60B2500DF200003C278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F10C6092500DF200003C278 /* Main.storyboard */; };
 		8F10C60E2500DF200003C278 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C60C2500DF200003C278 /* Contacts.xcdatamodeld */; };
 		8F10C6102500DF220003C278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F10C60F2500DF220003C278 /* Assets.xcassets */; };
 		8F10C6132500DF220003C278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F10C6112500DF220003C278 /* LaunchScreen.storyboard */; };
+		8F10C61B2500E8350003C278 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F10C61A2500E8350003C278 /* ContactInfo.swift */; };
+		8F10C61D2500E8C10003C278 /* Chandler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F10C61C2500E8C10003C278 /* Chandler.jpg */; };
+		8F3F9F912503922B00404343 /* Monica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F902503922B00404343 /* Monica.jpeg */; };
+		8F3F9F932503923500404343 /* Ross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F922503923500404343 /* Ross.jpg */; };
+		8F3F9F952503923B00404343 /* Rachel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F942503923B00404343 /* Rachel.jpg */; };
+		8F3F9F972503924600404343 /* Joey.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F962503924600404343 /* Joey.jpeg */; };
+		8F3F9F992503925900404343 /* Phoebe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F982503925900404343 /* Phoebe.jpg */; };
+		8F3F9F9B25039DD100404343 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3F9F9A25039DD100404343 /* default.png */; };
+		8FD88FCB25025CD200E493F3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD88FCA25025CD200E493F3 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F10C6002500DF200003C278 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F10C6032500DF200003C278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F10C6052500DF200003C278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F10C6072500DF200003C278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F10C6072500DF200003C278 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		8F10C60A2500DF200003C278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F10C60D2500DF200003C278 /* Contacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contacts.xcdatamodel; sourceTree = "<group>"; };
 		8F10C60F2500DF220003C278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F10C6122500DF220003C278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F10C6142500DF220003C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F10C61A2500E8350003C278 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		8F10C61C2500E8C10003C278 /* Chandler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chandler.jpg; path = ../../../Downloads/Chandler.jpg; sourceTree = "<group>"; };
+		8F3F9F902503922B00404343 /* Monica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Monica.jpeg; path = ../../../Downloads/Monica.jpeg; sourceTree = "<group>"; };
+		8F3F9F922503923500404343 /* Ross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ross.jpg; path = ../../../Downloads/Ross.jpg; sourceTree = "<group>"; };
+		8F3F9F942503923B00404343 /* Rachel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Rachel.jpg; path = ../../../Downloads/Rachel.jpg; sourceTree = "<group>"; };
+		8F3F9F962503924600404343 /* Joey.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Joey.jpeg; path = ../../../Downloads/Joey.jpeg; sourceTree = "<group>"; };
+		8F3F9F982503925900404343 /* Phoebe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Phoebe.jpg; path = ../../../Downloads/Phoebe.jpg; sourceTree = "<group>"; };
+		8F3F9F9A25039DD100404343 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../Downloads/default.png; sourceTree = "<group>"; };
+		8FD88FCA25025CD200E493F3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +78,18 @@
 			children = (
 				8F10C6032500DF200003C278 /* AppDelegate.swift */,
 				8F10C6052500DF200003C278 /* SceneDelegate.swift */,
-				8F10C6072500DF200003C278 /* ViewController.swift */,
+				8F10C6072500DF200003C278 /* ContactViewController.swift */,
+				8FD88FCA25025CD200E493F3 /* Contact.swift */,
 				8F10C6092500DF200003C278 /* Main.storyboard */,
+				8F10C61A2500E8350003C278 /* ContactInfo.swift */,
 				8F10C60F2500DF220003C278 /* Assets.xcassets */,
+				8F10C61C2500E8C10003C278 /* Chandler.jpg */,
+				8F3F9F902503922B00404343 /* Monica.jpeg */,
+				8F3F9F922503923500404343 /* Ross.jpg */,
+				8F3F9F942503923B00404343 /* Rachel.jpg */,
+				8F3F9F962503924600404343 /* Joey.jpeg */,
+				8F3F9F982503925900404343 /* Phoebe.jpg */,
+				8F3F9F9A25039DD100404343 /* default.png */,
 				8F10C6112500DF220003C278 /* LaunchScreen.storyboard */,
 				8F10C6142500DF220003C278 /* Info.plist */,
 				8F10C60C2500DF200003C278 /* Contacts.xcdatamodeld */,
@@ -129,8 +156,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F10C6132500DF220003C278 /* LaunchScreen.storyboard in Resources */,
+				8F10C61D2500E8C10003C278 /* Chandler.jpg in Resources */,
+				8F3F9F932503923500404343 /* Ross.jpg in Resources */,
+				8F3F9F952503923B00404343 /* Rachel.jpg in Resources */,
+				8F3F9F972503924600404343 /* Joey.jpeg in Resources */,
+				8F3F9F912503922B00404343 /* Monica.jpeg in Resources */,
 				8F10C6102500DF220003C278 /* Assets.xcassets in Resources */,
+				8F3F9F992503925900404343 /* Phoebe.jpg in Resources */,
 				8F10C60B2500DF200003C278 /* Main.storyboard in Resources */,
+				8F3F9F9B25039DD100404343 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD88FCB25025CD200E493F3 /* Contact.swift in Sources */,
 				8F10C60E2500DF200003C278 /* Contacts.xcdatamodeld in Sources */,
-				8F10C6082500DF200003C278 /* ViewController.swift in Sources */,
+				8F10C61B2500E8350003C278 /* ContactInfo.swift in Sources */,
+				8F10C6082500DF200003C278 /* ContactViewController.swift in Sources */,
 				8F10C6042500DF200003C278 /* AppDelegate.swift in Sources */,
 				8F10C6062500DF200003C278 /* SceneDelegate.swift in Sources */,
 			);
